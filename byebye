@@ -23,6 +23,7 @@ local about = Window:MakeTab({
 about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
 about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
 about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
+about:AddParagraph("脚本更新骗子酒馆加两个通用")
 about:AddParagraph("动作集全部来自于油管@GoldenHeads")
 about:AddParagraph("作者qq3828619907目前被封")
 about:AddParagraph("作者qq2530844420目前未被封")
@@ -764,6 +765,21 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
+
+end
+})
+local Tab = Window:MakeTab({
+  Name = "骗子酒馆",
+  Icon = "rbxassetid://93567463634140",
+  PremiumOnly = false
+  })
+  Tab:AddLabel("不知道有没有被打补丁")
+  Tab:AddLabel("但注意必须轮到你出牌才能用")
+Tab:AddButton({
+	Name = "1",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/cowka/c0wkaHub/refs/heads/main/Liars%20Club'))()
 
 end
 })
