@@ -12,11 +12,11 @@ print("jerk帮你开启了反挂机")
 		   wait(1)
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 local Window = OrionLib:MakeWindow({Name = "jerk中心", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用jerk中心", ConfigFolder = "欢迎使用jerk中心"})
 local about = Window:MakeTab({
     Name = "信息",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://93567463634140",
     PremiumOnly = false
 })
 
@@ -36,9 +36,10 @@ about:AddParagraph("也不要外传")
 
 local Tab = Window:MakeTab({
   Name = "通用脚本",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
+  Tab:AddLabel("脚本全部由HVT一人收集")
 Tab:AddButton({
 	Name = "飞行",
 	Callback = function()
@@ -401,9 +402,25 @@ loadstring(game:HttpGet("https://pastebin.com/raw/6X72Mdfs"))()
 
 end
 })
+Tab:AddButton({
+	Name = "Nameless指令",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+
+end
+})
+Tab:AddButton({
+	Name = "Dex v3",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua'))("https://t.me/RHOSCRIPTS")
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "最强战场",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
 Tab:AddButton({
@@ -571,7 +588,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "GB",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
 Tab:AddButton({
@@ -596,7 +613,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "别人的脚本",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
  Tab:AddButton({
@@ -641,7 +658,7 @@ end
 
 local Tab = Window:MakeTab({
   Name = "doors",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
   Tab:AddButton({
@@ -679,7 +696,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "动感星期五",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
 Tab:AddButton({
@@ -692,7 +709,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "压力脚本",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
   Tab:AddButton({
@@ -705,7 +722,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "战争大亨",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
   Tab:AddButton({
@@ -718,7 +735,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "da hood",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
   Tab:AddButton({
@@ -739,7 +756,7 @@ end
 })
 local Tab = Window:MakeTab({
   Name = "Fish🐟",
-  Icon = "rbxassetid://4483345998",
+  Icon = "rbxassetid://93567463634140",
   PremiumOnly = false
   })
 Tab:AddButton({
